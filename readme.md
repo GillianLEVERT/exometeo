@@ -9,5 +9,11 @@ Cette application météo permet de rechercher la météo actuelle d'une ville e
 
 ## Prérequis
 
-- Un navigateur web moderne
 - Une clé API valide de [OpenWeatherMap](https://openweathermap.org/api)
+
+
+## Technologie
+
+- Javascript
+- CSS
+- ViteJS
