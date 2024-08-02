@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo météo</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/favicon.png" type="image/png">
+</head>
+<body>
+  <div id="app" role="main">
+    <h1>Météo</h1>
+    <div class="search-container">
+      <input type="text" id="city" placeholder="Entrez une ville" aria-label="Nom de la ville">
+      <button id="search" aria-label="Rechercher la météo">Rechercher</button>
+  </div>
+    <div id="weather-info">
+        <div id="weather-icon"></div>
+        <div id="weather-details"></div>
+    </div>
+    <div id="forecast"></div>
+</div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
