@@ -14,6 +14,7 @@ Cette application météo permet de rechercher la météo actuelle d'une ville e
 
 ## Technologie
 
+- HTML
 - Javascript
 - CSS
 - ViteJS
