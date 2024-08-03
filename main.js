@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function getWeatherAndForecast() {
     const city = cityInput.value.trim();
     if (!city) {
-        updateWeatherInfo('Veuillez entrer un nom de ville.');
+        updateWeatherInfo('Veuillez entrer un nom de ville ou un code postal.');
         return;
     }
 
@@ -64,7 +64,7 @@ function displayWeather(data) {
 
 function displayForecast(data) {
     const dailyForecasts = groupForecastsByDay(data.list);
-    let forecastHTML = '<h3>Prévisions sur 5 jours</h3>';
+    let forecastHTML = '<h3>Prévisions sur plusieurs jours</h3>';
 
     dailyForecasts.forEach(forecast => {
         const date = new Date(forecast.dt * 1000);
